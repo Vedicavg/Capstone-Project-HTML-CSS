@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header p {
+    color: #E3D83B;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 700;
+    font-family: 'poppins';
+    padding: 1rem;
+
+}
+
+header h2 {
+    color: #ffff;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.top-container {
+    background-color: #E33B68;
+    position: relative;
+
+
+}
+
+
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#pro {
+    text-decoration: underline;
+}
+
+
+.bracket {
+    display: flex;
+    width: 100%;
+
+}
+
+.bracket.left {
+
+    align-content: center;
+    flex-direction: row-reverse;
+}
+
+.profile>img {
+
+    width: 100%;
+    margin: auto;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+}
+
+.about_me_text {
+
+    background-color: #E33B68;
+    border-radius: 60px;
+    padding-top: 0.1%;
+    width: 55%;
+
+    font-size: 1.7em;
+    text-align: center;
+    padding-bottom: 6%;
+
+    margin: 3%;
+
+}
+
+.about_me_text>p {
+
+    margin-top: 5rem;
+    color: #ffff;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+#right {
+
+    width: 7%;
+    float: right;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+#left {
+
+    width: 7%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 2%;
+
+}
+
+.my_skills {
+    background-color: #E33B68;
+    width: 100%;
+    height: 100%;
+
+}
+
+.my_skills>h1 {
+
+    font-family: 'poppins';
+    color: #E3D83B;
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+    padding: 6vh;
+
+}
+
+.skills {
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    background-color: white;
+    border: 15px solid #6E1D32;
+    text-align: center;
+    color: #E33B68;
+    font-family: 'poppins';
+    margin: auto;
+    margin-bottom: 10%;
+
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  
+}
+
+.skills>h3 {
+
+    margin-bottom: 5%;
+    margin-top: 25%;
+    color: #6E1D32;
+    font-size: 1.2em;
+    font-weight: 700;
+    /* background-color: #E3D83B; */
+}
+
+
+.skills>p {
+    font-size: 1em;
+    margin: 7%;
+    font-weight: 500;
+}
+
+
+.skills:hover {
+    transform: scale(1.3);
+}
+
+.skill_div {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+}
+
+.skill_div :nth-child(odd) {
+    grid-column: 2;
+}
+
+.skills button {
+
+    background-color: #E33B68;
+    color: white;
+    margin: 5%  ;
+
+}
+
+.skills:nth-child(2)>button{
+
+    margin: 0;
+
+}
+
+
+.skills:nth-child(4)>button{
+
+    margin: 0;
+
+}
+
+footer{
+
+    text-align: center;
+    margin: 5%;
+
+}
+
+.footer-title{
+    font-size: 3em;
+}
+
+footer>p{
+    font-size: 1.5em;
+}
+
+footer>a:hover{
+
+transform: scale(1.1);
+
+}
+
+.education{
+
+   padding: 5%;
+    text-align: center;
+    background-color:#E33B68;
+    width: 100%;
+    height: 100%;
+    font-family: 'poppins';
+
+}
+
+.ed-container{
+
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr ;
+}
+
+.ed-container .details{
+
+    grid-column: 2;
+
+}
+
+.ed-container .details >img{
+
+   float: left;
+   margin: 3%;
+   position: relative;
+   z-index: 1;
+
+}
+
+.ed-container .details >h3{
+
+    margin-top: 2%;
+    font-weight: bold;
+    width: 92%;
+}
+
+.ed-container .details >p{
+
+    margin-bottom: 4%;
+    padding: 2%;
+    width: 51%;
+    margin-left: 24%;
+}
+
+
+
+.education>h1{
+    color: #E3D83B ;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.education .details{
+
+    background-color: #E3D83B;
+
+    margin-top: 5%;
+
+    transition: width 2s, height 2s, transform 0.5s;
+
+}
+
+.education .details.rotate:hover{
+
+    transform: rotate(5deg);
+
+}
+.education .details.rotate-inverse:hover{
+
+    transform: rotate(-5deg);
+
+}
+
+
